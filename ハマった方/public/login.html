@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>ログインフォーム</title>
+</head>
+<body>
+    <form method="POST" action="/login">
+        <div>username<input type="text" name="username"></div>
+        <div>password<input type="password" name="password"></div>
+        <div><input type="submit" name="login"></div>
+    </form>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="util.js"></script>
+    <script src="socket_set.js"></script>
+</body>
+</html>
